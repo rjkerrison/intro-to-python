@@ -41,3 +41,11 @@ If you're using Visual Studio Code, it's a good idea to set up some helpful exte
 ```sh
 python hello.py
 ```
+
+## Recommended reading order
+
+Feel free to go off-piste, but the way we'd recommend moving through these is as follows:
+
+- [hello.py](./hello.py)
+- [lists.py](./lists.py)
+- [tuples.py](./tuples.py)
