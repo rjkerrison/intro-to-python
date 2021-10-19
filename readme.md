@@ -22,9 +22,30 @@ This is supposed to serve as an entry point for developers familiar with program
    ```
 
 3. Set a default global Python version.
+
    ```sh
    pyenv global 3.10.0
    ```
+
+4. We need to be sure our shell is using `pyenv`. For this, we have to update our shell setup script, e.g. `~/.zshrc`:
+
+   ```sh
+   echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
+   echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+   ```
+
+5. Restart your shells, or source those changed files
+
+   ```sh
+   source ~/.zprofile
+   source ~/.zshrc
+   ```
+
+6. Check your local python version
+   ```sh
+   python --version
+   ```
+   It should be `3.10.0`.
 
 All done!
 
