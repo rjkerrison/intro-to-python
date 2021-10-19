@@ -47,5 +47,7 @@ python hello.py
 Feel free to go off-piste, but the way we'd recommend moving through these is as follows:
 
 - [hello.py](./hello.py)
+- [indentation.py](./indentation.py)
+- [booleans.py](./booleans.py)
 - [lists.py](./lists.py)
 - [tuples.py](./tuples.py)
